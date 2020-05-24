@@ -55,10 +55,10 @@ signed main() {
 	bool flag = true;
 	for (int i = 0; i < n && flag; i++) {
 		flag = false;
-		for (int j = i+1; j < n; j++) {
-			if (counter[i] < counter[j]) {
-				swap(counter[i], counter[j]);
-				swap(array[i], array[j]);
+		for (int j = 0; j < n-1-i; j++) {
+			if (counter[j] < counter[j+1]) {
+				swap(counter[j], counter[j+1]);
+				swap(array[j], array[j+1]);
 				flag = true;
 			}
 		}
