@@ -2,13 +2,13 @@
 ---
 
 Если желаете, то можете проверить здесь мои задания: 
-* [task1](https://github.com/sorrygames/labs_cpp/task1.cpp)
+* [task1](https://github.com/sorrygames/labs_cpp/blob/master/task1.cpp)
 
 В каждой строке после слов чётной длины вставить заданную подстроку (например "\**"). Отсортировать строки по количеству вставленных подстрок.
 
 ---
 
-* [task2](https://github.com/sorrygames/labs_cpp/task2.cpp)
+* [task2](https://github.com/sorrygames/labs_cpp/blob/master/task2.cpp)
 
 Определить структуру, содержащую информацию о сотрудниках
 завода: табельный номер сотрудника, номер цеха, фамилию, заработную
@@ -22,7 +22,7 @@
 
 ---
 
-* [task3](https://github.com/sorrygames/labs_cpp/task3.cpp)
+* [task3](https://github.com/sorrygames/labs_cpp/blob/master/task3.cpp)
 
 Определить классы, содержащие информацию о сотрудниках
 завода: табельный номер сотрудника, номер цеха, фамилию, заработную
