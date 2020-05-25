@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include <sstream>
-// #include <windows.h>
+#include <windows.h>
 
 using namespace std;
 
@@ -124,8 +124,8 @@ void add_element(worker* &database, int& database_len, worker temp) {
 
 
 signed main() {
-    // SetConsoleOutputCP(1251);
-    // SetConsoleCP(1251);
+    SetConsoleOutputCP(1251);
+    SetConsoleCP(1251);
 
 	char key;
 	int database_len = 5;

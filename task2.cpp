@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include <sstream>
-// #include <windows.h>
+#include <windows.h>
 
 using namespace std;
 
@@ -70,8 +70,8 @@ void database_row_group(worker person);
 
 
 signed main() {
-    // SetConsoleOutputCP(1251);
-    // SetConsoleCP(1251);
+    SetConsoleOutputCP(1251);
+    SetConsoleCP(1251);
 
 	char key;
 	int database_len = 5;
